@@ -4670,6 +4670,11 @@
                 return wrappedChatBox(converse.chatboxviews.showChat(contact.attributes));
             }
         },
+        'openAttrChatBox': function (attr) {
+            if (attr) {
+                return wrappedChatBox(converse.chatboxviews.showChat(attr));
+            }
+        },
         'once': function (evt, handler) {
             converse.once(evt, handler);
         },
