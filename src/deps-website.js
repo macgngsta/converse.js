@@ -2,7 +2,8 @@ define("converse-dependencies", [
     "jquery",
     "utils",
     "otr",
-    "moment",
+    "components/momentjs/moment",
+    "components/moment-timezone/moment-timezone",
     "locales",
     "bootstrapJS", // XXX: Only for https://conversejs.org
     "backbone.browserStorage",
