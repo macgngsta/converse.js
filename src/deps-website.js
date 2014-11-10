@@ -2,8 +2,7 @@ define("converse-dependencies", [
     "jquery",
     "utils",
     "otr",
-    "components/momentjs/moment",
-    "components/moment-timezone/moment-timezone",
+    "moment",
     "locales",
     "bootstrapJS", // XXX: Only for https://conversejs.org
     "backbone.browserStorage",
@@ -14,8 +13,8 @@ define("converse-dependencies", [
     "strophe",
     "strophe.muc",
     "strophe.roster",
-    "components/strophejs-plugins/vcard/strophe.vcard",
-    "components/strophejs-plugins/disco/strophe.disco"
+    "strophe.vcard",
+    "strophe.disco"
 ], function($, utils, otr, moment) {
     return {
         'jQuery': $,
